@@ -1,0 +1,17 @@
+# Language detection rules
+# Normalize line endings
+# Configuration for git attributes
+*.tsx linguist-detectable
+
+build/* linguist-vendored
+*.woff2 binary  
+
+*.json linguist-detectable=false
+src/**/*.ts linguist-detectable
+
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.svg text
+examples/site/**/*.html linguist-vendored
+# eof 3f739034
